@@ -12,3 +12,9 @@ Depends:
     RJSONIO,
     plyr
 License: file LICENSE
+Collate:
+    'GetAuthToken.R'
+    'globaldata.R'
+    'GoogleApiRequest.R'
+    'grealtime-package.R'
+    'GrtGet.R'
