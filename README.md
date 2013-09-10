@@ -9,7 +9,7 @@ Google Analytics Real-time API client for R
 
 Note
 ----
-This package is in developement and currently depends on a development version of httr to support OAuth2.0 authentication. This development package can be located here: https://github.com/jdeboer/httr
+This package is in developement and currently depends on a development version of httr to support OAuth2.0 authentication. This development package can be located here: https://github.com/jdeboer/httr/tree/OAuth2.0-reference-class
 
 References
 ----------
