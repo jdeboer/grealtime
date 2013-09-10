@@ -1,0 +1,14 @@
+Package: grealtime
+Type: Package
+Title: Google Analytics Real-time API client for R
+Version: 0.1
+Date: 2013-09-10
+Author: Johann de Boer <johann.deboer@gmail.com>
+Maintainer: Johann de Boer <johann.deboer@gmail.com>
+Description: Google Analytics Real-time API client for R
+Depends:
+    R (>= 3.0.0),
+    httr,
+    RJSONIO,
+    plyr
+License: file LICENSE
