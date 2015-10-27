@@ -26,6 +26,6 @@ GrtGet <- function(oauth, ids, metrics = "ga:activeVisitors", dimensions = NULL,
   )
   response.df <- ldply(response$rows)
   col_names <- sapply(response$columnHeaders, function(column) {column$name})
-  names(response.df) <- col_names
+  names(response.df) <- col_names[seq(1, length.out=ncol(response.df))]
   return(response.df)
 }
